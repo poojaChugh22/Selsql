@@ -8,8 +8,8 @@ import org.openqa.selenium.support.pagefactory.AjaxElementLocatorFactory;
 
 public class FaceBookElements2 {
 	WebDriver driver;
-	
-	private final String INPUT_NAME = "//input[@name='firstname']";
+    //changed b
+	private final String INPUT_NAME = "//input[@name='firstname']";//changed by b
 	private final String INPUT_LNAME = "//input[@name='lastname']";
 	private final String INPUT_EMAIL = "//input[@name='reg_email__']";
 	
